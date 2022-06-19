@@ -28,6 +28,8 @@ e.g, to run and visualize our family domain example, simply open and run
 ```
 ./notebooks/ToyFamily.ipynb
 ```
+or simply use our Google colab https://colab.research.google.com/drive/17U5olNtQotVXFT9kfr2p9K8RM_x2qH40?usp=sharing
+
 You could get the the following results
 
 <img src="embedding.png" alt="drawing" width="500"/>
