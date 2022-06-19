@@ -26,7 +26,7 @@ We provided specific jupyter notebooks files for all the tasks used in our paper
 
 e.g, to run and visualize our family domain example, simply open and run
 ```
-./notebooks/BoxEL-ToyFamily.ipynb
+./notebooks/ToyFamily.ipynb
 ```
 You could get the the following results
 
