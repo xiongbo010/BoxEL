@@ -1,6 +1,6 @@
-# BoxEL: Box EL++ Embedding 
+# Faithful embeddings for EL++ Knowledge Bases
 
-This is the official pytorch implementation of the BoxEL for the description logic EL++. BoxEL++ is a geometric approach based on box embedding to generate embeddings for the description logic EL++ 
+This is the official pytorch implementation of paper **Faithful embeddings for EL++ Knowledge Bases**. The code was implemented based on [el-embeddings](https://github.com/bio-ontology-research-group/el-embeddings).
 
 # Requiriments
 
@@ -16,36 +16,35 @@ We have preprocessed all the data in /data directory. In particular, we have nor
 For original data, refer https://bio2vec.cbrc.kaust.edu.sa/data/elembeddings/el-embeddings-data.zip for protein-protein interaction
 and https://github.com/kracr/EmELpp for subsumption reasoning. 
 
-# How to run Box EL++  
 
-We provide two ways to run our BoxEL++ embeddings: python scripts and jupyter notebooks. Since different dataset/tasks have different features, we provide specific files for each datasts/tasks
+## Toy example
 
-## Jupyter notebooks
 
-We provided specific jupyter notebooks files for all the tasks used in our paper.
-
-e.g, to run and visualize our family domain example, simply open and run
+To run our family domain example, simply open
 ```
 ./notebooks/ToyFamily.ipynb
 ```
-or simply use our Google colab https://colab.research.google.com/drive/17U5olNtQotVXFT9kfr2p9K8RM_x2qH40?usp=sharing
+or use our Google colab https://colab.research.google.com/drive/17U5olNtQotVXFT9kfr2p9K8RM_x2qH40?usp=sharing
 
 You could get the the following results
 
 <img src="embedding.png" alt="drawing" width="500"/>
 
-## Python scripts
+## Subsumption reasoning and PPI
 
-We also provided python scripts to run the tasks.
-
-e.g. to run BoxEL on Gene Ontology, simply run
+e.g., to reproduce the results on Gene Ontology, simply run
 ```
 python scripts/BoxEL-GO.py 
 ```
-The settings of the used hyperparameters is given in the python files. 
 
-# Pretrained models
+## Citation
 
-We provided some pretrained models in ./models/
-
-
+If you find this code useful, please cite the following paper: 
+```
+@inproceedings{Xiong2022Faithful,
+  title={Faithful embeddings for EL++ Knowledge Bases},
+  author={Bo Xiong and Nico Potyka and Trung-Kien Tran and Mojtaba Nayyeri and Steffen Staab},
+  booktitle={International Semantic Web Conference},
+  year={2022}
+}
+```
