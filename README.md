@@ -1,4 +1,5 @@
 # Faithful Embeddings for EL++ Knowledge Bases
+[![Identifier](https://img.shields.io/badge/doi-10.18419%2Fdarus--3989-d45815.svg)](https://doi.org/10.18419/darus-3989)
 
 This is the official pytorch implementation of paper **Faithful embeddings for EL++ Knowledge Bases**. The code was implemented based on [el-embeddings](https://github.com/bio-ontology-research-group/el-embeddings).
 
